@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  table th, td{
+    border: 1px solid black;
+  }
+.labelClass{
+  float: left;
+  width: 113px;
+
+}
+.header{
+    display: inline-block;
+}
+
+body {
+    background-color: #93B874;
+}
+h1{
+  display:inline-block;
+  font-weight:bold;
+  font-size:60px;
+  font-style: italic;
+  text-align: justify;
+}
+</style>
+    <title>My Kitchen</title>
+  </head>
+  <body>
+    <div class="header">
+    <img src="http://www.brandcrowd.com/gallery/brands/pictures/picture13271049136309.jpg" alt="kitchen logo" width="150">
+    <h1 style="font-family:Courier New Bold; color:Purple; font-size:500%; text-align:center;">Mom's Kitchen</h1>
+    </div>
+    <P> Here I will cook the favourite dishes of my daughter and husband</p>
+    <p> My Darling daughter</p>
+    <img src="IMG_8053.JPG" alt="My Cutie Pie" width="100">
+    <h4> Dishes I am good at</h4>
+    <div class="Dishes">
+      <table>
+        <tr>
+          <th>DishName</th>
+          <th>Nutrient Calories</th>
+          <th>Cuisnie</th>
+        </tr>
+
+        <tr>
+          <td>Chicken Curry</td>
+          <td>1000</td>
+          <td>Indian</td>
+        </tr>
+
+        <tr>
+          <td>Pasta</td>
+          <td>500</td>
+          <td>Italian</td>
+        </tr>
+
+        <tr>
+          <td>Fried Rice</td>
+          <td>800</td>
+          <td>Asian</td>
+        </tr>
+      </table>
+      </div>
+
+    <h5>Need a recipe?..Enter your details here....</h5>
+      <form action="Recipes.jsp">
+        <span class="labelClass">Name: </span><input type="text" name="Name"><br>
+        <span class="labelClass">Email: </span><input type="text" name="Email"><br>
+        <span class="labelClass">Dish:</span><input type="text" name="DishName"><br>
+        <input type="submit" value="Submit">
+      </form>
+  </body>
+</html>
